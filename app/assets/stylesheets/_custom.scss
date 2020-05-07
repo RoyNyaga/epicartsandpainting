@@ -1,0 +1,94 @@
+/* colors #5d4e60  #DECBB7 #8F857D #FAF9F9 #D7DEDC #B6C8A9*/
+
+
+
+body{
+	background: #D7DEDC;
+}
+
+section{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 1000;
+	pointer-events: none;
+}
+
+section .side {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url(https://res.cloudinary.com/epicartsandpainting/image/upload/v1588670628/Epic-pic/IMG-20200428-WA0067_vjpgbd.jpg)center/cover no-repeat;
+}
+
+section .side#side1{
+	clip-path: polygon(0% 0%, 64% 0%, 44% 13%, 69% 29%, 29% 35%, 50% 53%, 32% 64%, 62% 76%, 23% 87%, 59% 100%, 0% 100%);
+}
+
+section .side#side2 {
+	clip-path: polygon(100% 0, 64% 0%, 44% 13%, 69% 29%, 29% 35%, 50% 53%, 32% 64%, 62% 76%, 23% 87%, 59% 100%, 100% 100%);
+
+}
+
+#home-about-section {
+	color: black;
+	background: #904f36;
+	padding-top: 120vh;
+	padding-bottom: 20px;
+}
+
+#home-page-main-heading{
+	color: #B6C8A9;
+}
+
+#home-about-section a {
+	color: #B6C8A9;
+	padding: 5px 10px;
+	border: 2px solid #B6C8A9;
+}
+
+#home-about-section a:hover {
+	background: #c59987;
+	text-decoration: none;
+}
+
+.underline {
+	padding: px;
+	background: black;
+	width: 100px;
+	margin: 0 auto;
+}
+
+/* end of home page */
+
+/* navigation bar */
+
+.navbar {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background: url(https://res.cloudinary.com/epicartsandpainting/image/upload/v1588670571/Epic-pic/IMG-20200428-WA0178_plweoc.jpg)center/cover fixed;
+}
+.navbar-brand img {
+	height: 2rem;
+}
+.navbar-nav li{
+	padding-right: .7rem;
+}
+.nav-link {
+	color: white;
+	padding-top: .8rem;
+	font-weight: 700;
+	border-bottom: 2px solid transparent;
+	transition: all 1s ease-in-out;
+}
+.nav-link.active,
+.nav-link:hover {
+	color: #1ebba3;
+	border-bottom: 2px solid white;
+}
