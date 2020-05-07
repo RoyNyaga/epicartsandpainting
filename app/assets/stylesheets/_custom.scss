@@ -3,7 +3,6 @@
 
 
 body{
-	min-height: 300vh;
 	background: #D7DEDC;
 }
 
@@ -55,4 +54,41 @@ section .side#side2 {
 #home-about-section a:hover {
 	background: #c59987;
 	text-decoration: none;
+}
+
+.underline {
+	padding: px;
+	background: black;
+	width: 100px;
+	margin: 0 auto;
+}
+
+/* end of home page */
+
+/* navigation bar */
+
+.navbar {
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: .9rem;
+	letter-spacing: .1rem;
+	background: url(https://res.cloudinary.com/epicartsandpainting/image/upload/v1588670571/Epic-pic/IMG-20200428-WA0178_plweoc.jpg)center/cover fixed;
+}
+.navbar-brand img {
+	height: 2rem;
+}
+.navbar-nav li{
+	padding-right: .7rem;
+}
+.nav-link {
+	color: white;
+	padding-top: .8rem;
+	font-weight: 700;
+	border-bottom: 2px solid transparent;
+	transition: all 1s ease-in-out;
+}
+.nav-link.active,
+.nav-link:hover {
+	color: #1ebba3;
+	border-bottom: 2px solid white;
 }
