@@ -149,10 +149,7 @@ section .side#side2 {
 }
 
 
-
-
-
-/* end of home page */
+/*#################### end of home page ###########################*/
 
 /* navigation bar */
 
@@ -182,4 +179,12 @@ section .side#side2 {
 .nav-link:hover {
 	color: white;
 	border-bottom: 2px solid #fd7e14;
+}
+
+/*######################### Footer section #########################*/
+
+#footer-section{
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(https://res.cloudinary.com/epicartsandpainting/image/upload/v1588670571/Epic-pic/IMG-20200428-WA0178_plweoc.jpg)center/cover fixed;
+	color: #d7dedc;
+	font-weight: 700;
 }
