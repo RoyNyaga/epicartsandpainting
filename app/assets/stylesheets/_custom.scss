@@ -227,6 +227,34 @@ section .side#side2 {
 /*#################### About page ##########################*/
 
 
+/*################# Pricing #################*/
+table {
+        border-collapse: collapse;
+        width:100%
+      }
+
+td,
+th {
+	border: 1px solid #f6f6f6;
+	padding: 0.5rem;
+	text-align: left;
+
+}
+th {
+	background-color: #f6f6f6;
+}
+td{
+  text-align: center;
+}
+	caption {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 200%;
+	padding: 2px;
+	color: #024E64;
+}
+
+
 
 
 
