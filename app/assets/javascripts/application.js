@@ -17,3 +17,13 @@
 //= require jquery3
 //= require popper
 //= require bootstrap-sprockets
+
+$(document).ready(function () {
+  $('.headline-image-container').magnificPopup({
+	  delegate: 'a', // child items selector, by clicking on it popup will open
+	  type: 'image',
+	  gallery: {
+	  	enabled: true
+	  }
+  })
+})

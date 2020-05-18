@@ -4,6 +4,41 @@
 
 body{
 	background: #D7DEDC;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+.standout-font {
+	font-family: 'Noto Serif', serif;
+}
+
+.transparent-button-orange{
+	color: #fd7e14;
+	padding: 5px;
+	border: 2px solid #fd7e14;
+	background: transparent;
+	display: inline-block;
+}
+
+.transparent-button-orange:hover {
+	text-decoration: none;
+	background: #fd7e1438;
+	color: #e49049;
+	border: 2px solid #e49049;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+.linerule{
+	padding: 2px;
+	width: 240px;
+	background: #61655f;
+	margin: 0 auto;
+}
+
+.general-sub-header-div h2{
+	color: #842a08fc;
 }
 
 section{
@@ -37,12 +72,13 @@ section .side#side2 {
 #home-about-section {
 	color: black;
 	background: #904f36;
-	padding-top: 120vh;
+	padding-top: 90vh;
 	padding-bottom: 20px;
 }
 
-#home-page-main-heading{
+.home-page-main-headings{
 	color: #B6C8A9;
+	font-family: 'Monoton', cursive;
 }
 
 #home-about-section a {
@@ -51,19 +87,69 @@ section .side#side2 {
 	border: 2px solid #B6C8A9;
 }
 
+.headline-concepts-links {
+	color: black;
+}
+
+.headline-concepts-links:hover {
+	color: black;
+}
+
 #home-about-section a:hover {
 	background: #c59987;
 	text-decoration: none;
 }
 
-.underline {
-	padding: px;
-	background: black;
-	width: 100px;
-	margin: 0 auto;
+.card-type-one {
+	background: transparent;
+	border: 2px solid #fd7e14;
 }
 
-/* end of home page */
+.card-type-one:hover {
+	box-shadow: 0px 10px 20px #904f36;
+}
+
+.img-box{
+	overflow: hidden;
+	box-shadow: 0px 10px 20px #904f36;
+}
+
+.img-box img {
+	transition: transform 2s ease-in-out;
+}
+
+.img-box img:hover {
+	transform: scale(1.3);
+}
+
+#passion-div{
+	height: 25vh;
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(https://res.cloudinary.com/epicartsandpainting/image/upload/v1588670571/Epic-pic/IMG-20200428-WA0178_plweoc.jpg)center/cover fixed;
+}
+
+#paddions-main-heading{
+	color: #d7dedcbf;
+}
+
+.fa-angle-double-right{
+	color: #fd7e14;
+}
+
+.border-bottom-header-div{
+	border-bottom: 2px solid #8e480d;
+}
+
+.catalogue-fontawesom{
+	color: #8e480d;
+	font-size: 1.5em;
+}
+
+.border-bottom-div-heading{
+	font-size: 1.5em;
+}
+
+
+/*#################### end of home page ###########################*/
 
 /* navigation bar */
 
@@ -72,7 +158,7 @@ section .side#side2 {
 	font-weight: 700;
 	font-size: .9rem;
 	letter-spacing: .1rem;
-	background: url(https://res.cloudinary.com/epicartsandpainting/image/upload/v1588670571/Epic-pic/IMG-20200428-WA0178_plweoc.jpg)center/cover fixed;
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(https://res.cloudinary.com/epicartsandpainting/image/upload/v1588670571/Epic-pic/IMG-20200428-WA0178_plweoc.jpg)center/cover fixed;
 }
 .navbar-brand img {
 	height: 2rem;
@@ -81,14 +167,104 @@ section .side#side2 {
 	padding-right: .7rem;
 }
 .nav-link {
-	color: white;
+	color: #fd7e14;
 	padding-top: .8rem;
 	font-weight: 700;
 	border-bottom: 2px solid transparent;
 	transition: all 1s ease-in-out;
+	font-family: 'Noto Serif', serif;
+
 }
 .nav-link.active,
 .nav-link:hover {
-	color: #1ebba3;
-	border-bottom: 2px solid white;
+	color: white;
+	border-bottom: 2px solid #fd7e14;
 }
+
+/*######################### Footer section #########################*/
+
+#footer-section{
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(https://res.cloudinary.com/epicartsandpainting/image/upload/v1588670571/Epic-pic/IMG-20200428-WA0178_plweoc.jpg)center/cover fixed;
+	color: #d7dedc;
+	font-weight: 700;
+}
+
+
+/*############### absolute-contact-button ###################*/
+#absolute-contact-button{
+	background: #554037;
+	color: #b4b3af;
+	position: fixed;
+	padding: 20px;
+	top: 90%;
+	left: 90%;
+	border: 2px solid #fd7e13;
+	border-radius: 50%;
+	transition: all 1s ease-in-out;
+}
+
+#absolute-contact-button:hover{
+	color: #fd7e13;
+	text-decoration: none;
+}
+
+#absolute-contact-button-phone{
+	background: #554037;
+	color: #b4b3af;
+	position: fixed;
+	padding: 10px;
+	top: 88%;
+	left: 70%;
+	border: 2px solid #fd7e13;
+	border-radius: 50%;
+	font-size: 0.8em;
+}
+
+#absolute-contact-button-phone:hover {
+	color: #fd7e13;
+}
+
+/*#################### About page ##########################*/
+
+
+/*################# Pricing #################*/
+table {
+        border-collapse: collapse;
+        width:100%
+      }
+
+td,
+th {
+	border: 1px solid #f6f6f6;
+	padding: 0.5rem;
+	text-align: left;
+
+}
+th {
+	background-color: #f6f6f6;
+}
+td{
+  text-align: center;
+}
+	caption {
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 200%;
+	padding: 2px;
+	color: #024E64;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

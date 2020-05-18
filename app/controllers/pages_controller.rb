@@ -5,6 +5,16 @@ class PagesController < ApplicationController
   def about
   end
 
+  def pricing
+  end 
+
   def services
+  end
+
+  def commission
+  end
+
+  def catalog
+
   end
 end
