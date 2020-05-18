@@ -13,4 +13,8 @@ class PagesController < ApplicationController
 
   def commission
   end
+
+  def catalog
+
+  end
 end
