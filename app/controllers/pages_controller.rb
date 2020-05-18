@@ -10,4 +10,7 @@ class PagesController < ApplicationController
 
   def services
   end
+
+  def commission
+  end
 end
