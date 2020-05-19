@@ -15,6 +15,8 @@ class PagesController < ApplicationController
   end
 
   def catalog
+  end
 
+  def faq
   end
 end
