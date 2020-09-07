@@ -1,24 +1,14 @@
-# README
+# https://epicartsandpainting.herokuapp.com/
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### About
+<img src="https://res.cloudinary.com/it-s-tech/image/upload/v1599489802/Screen_Shot_2020-09-07_at_3.42.48_PM_g9hgkb.png">
 
-Things you may want to cover:
+### Live Demo. 
+click [here](https://epicartsandpainting.herokuapp.com/) to see the live version.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### Technologies used
+- Ruby on Rails
+- Bootstrap 4
+- CSS
+- Postgresql
+- HTML 5
